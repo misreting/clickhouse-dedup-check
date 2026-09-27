@@ -9,7 +9,7 @@ description = "Audit ClickHouse ReplacingMergeTree tables for the eventual-dedup
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.11"
-authors = [{name = "__AUTHOR__"}]
+authors = [{name = "clickhouse-dedup-check"}]
 keywords = ["clickhouse", "replacingmergetree", "deduplication", "data-quality", "ci"]
 classifiers = [
     "Development Status :: 4 - Beta",
@@ -25,7 +25,7 @@ classifiers = [
 ]
 
 [project.urls]
-Repository = "https://github.com/__GH_OWNER__/clickhouse-dedup-check"
+Repository = "https://github.com/agentscope-ai-java/clickhouse-dedup-check"
 
 [project.scripts]
 clickhouse-dedup-check = "clickhouse_dedup_check.cli:main"
